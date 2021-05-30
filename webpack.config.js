@@ -1,3 +1,14 @@
+const path = require("path");
+
+const app_dir = __dirname + '/src';
+
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
+  template: app_dir + '/index.html',
+  filename: 'index.html',
+  inject: 'body'
+});
+
 const config = {
   mode: 'development',
   entry: app_dir + '/app.tsx',
