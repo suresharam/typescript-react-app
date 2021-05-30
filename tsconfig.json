@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "targer": "es5",
+    "target": "es5",
     "module": "commonjs",
     "lib": ["dom", "dom.iterable", "ES2016"],
     "allowJs": true,
@@ -9,7 +9,7 @@
     "sourceMap": true,
     "outDir": "./dist/",
     "rootDir": ".",
-    "removeComents": true,
+    "removeComments": true,
     "strict": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
@@ -17,7 +17,7 @@
     "experimentalDecorators": true
   },
   "include": [
-    "./client"
+    "./src"
   ],
   "exclude": [
     "./node_modules",
