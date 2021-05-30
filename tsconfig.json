@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "targer": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "dom.iterable", "ES2016"],
+    "allowJs": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "rootDir": ".",
+    "removeComents": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "./client"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./build",
+    "./dist",
+  ]
+}

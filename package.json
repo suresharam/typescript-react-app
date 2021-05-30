@@ -1,0 +1,35 @@
+{
+  "name": "typescript-react-app",
+  "version": "1.0.0",
+  "description": "React app with TypeScript",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:suresharam/typescript-react-app.git",
+    "type": "git"
+  },
+  "author": "Suresh Ramappa <suriram.sam@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
